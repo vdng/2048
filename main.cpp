@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
     Score score;
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("vueObjectSco",&score);
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-    engine.rootContext()->setContextProperty("vueObjectCpt",&score); // On crée un objet vueObjectCpt lié à notre compteur
     if (engine.rootObjects().isEmpty())
         return -1;
 
