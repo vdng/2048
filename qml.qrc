@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>tuile_2.qml</file>
+        <file>tuile_4.qml</file>
     </qresource>
 </RCC>

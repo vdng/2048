@@ -15,14 +15,13 @@ Window {
 
         Rectangle {
             id: plateau
-            x: 15
             y: 175
             width: 450
             height: 450
             color: "#a08f71"
             radius: 10
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: 15
+            anchors.left: parent.left
+            anchors.leftMargin: 15
             anchors.horizontalCenter: parent.horizontalCenter
 
             Grid {
@@ -222,7 +221,6 @@ Window {
                     anchors.topMargin: 10
                 }
             }
-
         }
 
 
