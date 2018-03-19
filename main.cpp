@@ -20,3 +20,25 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+
+/********************************
+ *          To do list          *
+ ********************************
+ *
+ * **** Déroulement d'un tour ***
+ *
+ * - action_faite = false
+ * - demander déplacement
+ * - effectuer : déplacement
+ *      -> màj du score
+ *      -> gestion du mouvement
+ *      -> interface graphique
+ * - si action faite : apparition_tuile
+ *
+ *
+ * *** Besoin de : ***
+ *
+ * Tuile
+ * Score
+
+*/
