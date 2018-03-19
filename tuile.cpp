@@ -31,9 +31,9 @@ void Tuile::deplacer_bas(){
 }
 
 void Tuile::get_x(){
-
+    return x;
 }
 
 void Tuile::get_y(){
-
+    return y;
 }
