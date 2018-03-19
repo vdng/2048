@@ -25,7 +25,16 @@ void Tuile::get_val(){
 }
 
 void Tuile::deplacer_gauche(){
+    bool peut_bouger = true;
+    while (peut_bouger) {
+        if (y==0){
+            peut_bouger=false;
+        }
+        else{
 
+        }
+
+    }
 }
 
 void Tuile::deplacer_droite(){
