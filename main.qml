@@ -29,7 +29,7 @@ Window {
                 anchors.fill: parent
 
                 Rectangle {
-                    id: tuile15
+                    id: case15
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -41,7 +41,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile14
+                    id: case14
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -53,7 +53,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile13
+                    id: case13
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -65,7 +65,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile12
+                    id: case12
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -78,7 +78,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile11
+                    id: case11
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -90,7 +90,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile10
+                    id: case10
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -102,7 +102,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile9
+                    id: case9
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -114,7 +114,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile8
+                    id: case8
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -126,7 +126,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile7
+                    id: case7
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -138,7 +138,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile6
+                    id: case6
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -150,7 +150,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile5
+                    id: case5
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -162,7 +162,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile4
+                    id: case4
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -174,7 +174,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile3
+                    id: case3
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -186,7 +186,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile2
+                    id: case2
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -198,7 +198,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile1
+                    id: case1
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -210,7 +210,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: tuile
+                    id: case0
                     width: 100
                     height: 100
                     color: "#ecdbc0"
