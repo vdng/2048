@@ -29,7 +29,7 @@ Window {
                 anchors.fill: parent
 
                 Rectangle {
-                    id: case15
+                    id: case33
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -41,7 +41,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case14
+                    id: case32
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -53,7 +53,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case13
+                    id: case31
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -65,7 +65,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case12
+                    id: case30
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -78,7 +78,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case11
+                    id: case23
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -87,6 +87,78 @@ Window {
                     anchors.leftMargin: 340
                     anchors.top: parent.top
                     anchors.topMargin: 230
+                }
+
+                Rectangle {
+                    id: case22
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.left: parent.left
+                    anchors.leftMargin: 230
+                    anchors.top: parent.top
+                    anchors.topMargin: 230
+                }
+
+                Rectangle {
+                    id: case21
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.top: parent.top
+                    anchors.left: parent.left
+                    anchors.topMargin: 230
+                    anchors.leftMargin: 120
+                }
+
+                Rectangle {
+                    id: case20
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.top: parent.top
+                    anchors.left: parent.left
+                    anchors.topMargin: 230
+                    anchors.leftMargin: 10
+                }
+
+                Rectangle {
+                    id: case13
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.left: parent.left
+                    anchors.leftMargin: 340
+                    anchors.top: parent.top
+                    anchors.topMargin: 120
+                }
+
+                Rectangle {
+                    id: case12
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.left: parent.left
+                    anchors.leftMargin: 230
+                    anchors.top: parent.top
+                    anchors.topMargin: 120
+                }
+
+                Rectangle {
+                    id: case11
+                    width: 100
+                    height: 100
+                    color: "#ecdbc0"
+                    radius: 10
+                    anchors.top: parent.top
+                    anchors.left: parent.left
+                    anchors.topMargin: 120
+                    anchors.leftMargin: 120
                 }
 
                 Rectangle {
@@ -95,78 +167,6 @@ Window {
                     height: 100
                     color: "#ecdbc0"
                     radius: 10
-                    anchors.left: parent.left
-                    anchors.leftMargin: 230
-                    anchors.top: parent.top
-                    anchors.topMargin: 230
-                }
-
-                Rectangle {
-                    id: case9
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
-                    anchors.top: parent.top
-                    anchors.left: parent.left
-                    anchors.topMargin: 230
-                    anchors.leftMargin: 120
-                }
-
-                Rectangle {
-                    id: case8
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
-                    anchors.top: parent.top
-                    anchors.left: parent.left
-                    anchors.topMargin: 230
-                    anchors.leftMargin: 10
-                }
-
-                Rectangle {
-                    id: case7
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
-                    anchors.left: parent.left
-                    anchors.leftMargin: 340
-                    anchors.top: parent.top
-                    anchors.topMargin: 120
-                }
-
-                Rectangle {
-                    id: case6
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
-                    anchors.left: parent.left
-                    anchors.leftMargin: 230
-                    anchors.top: parent.top
-                    anchors.topMargin: 120
-                }
-
-                Rectangle {
-                    id: case5
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
-                    anchors.top: parent.top
-                    anchors.left: parent.left
-                    anchors.topMargin: 120
-                    anchors.leftMargin: 120
-                }
-
-                Rectangle {
-                    id: case4
-                    width: 100
-                    height: 100
-                    color: "#ecdbc0"
-                    radius: 10
                     anchors.top: parent.top
                     anchors.left: parent.left
                     anchors.topMargin: 120
@@ -174,7 +174,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case3
+                    id: case03
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -186,7 +186,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case2
+                    id: case02
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -198,7 +198,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case1
+                    id: case01
                     width: 100
                     height: 100
                     color: "#ecdbc0"
@@ -210,7 +210,7 @@ Window {
                 }
 
                 Rectangle {
-                    id: case0
+                    id: case00
                     width: 100
                     height: 100
                     color: "#ecdbc0"
