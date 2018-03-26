@@ -14,7 +14,7 @@ Window {
         anchors.fill: parent
 
         Rectangle {
-            id: plateau
+            id: jeu
             y: 175
             width: 450
             height: 450
@@ -220,6 +220,11 @@ Window {
                     anchors.top: parent.top
                     anchors.topMargin: 10
                 }
+            }
+
+            Grid {
+                id: plateau
+                anchors.fill: parent
             }
         }
 
