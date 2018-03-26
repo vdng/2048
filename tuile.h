@@ -10,7 +10,7 @@ public:
     explicit Tuile(QObject *parent = nullptr);
     void fusion(Tuile Tuile2);
     int get_val();
-    void deplacer_gauche();
+    void deplacer_gauche(vector<Tuile> L_tuile);
     void deplacer_droite();
     void deplacer_haut();
     void deplacer_bas();
