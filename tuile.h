@@ -6,14 +6,15 @@
 class Tuile : public QObject
 {
     Q_OBJECT
+
 public:
     explicit Tuile(QObject *parent = nullptr);
-    void fusion(Tuile Tuile2);
+    Q_INVOKABLE void fusion(Tuile Tuile2);
+    Q_INVOKABLE void deplacer_gauche();
+    Q_INVOKABLE void deplacer_droite();
+    Q_INVOKABLE void deplacer_haut();
+    Q_INVOKABLE void deplacer_bas();
     int get_val();
-    void deplacer_gauche();
-    void deplacer_droite();
-    void deplacer_haut();
-    void deplacer_bas();
     int get_x();
     int get_y();
 
