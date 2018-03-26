@@ -14,7 +14,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp \
     score.cpp \
-    tuile.cpp
+    tuile.cpp \
+    plateau.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,4 +32,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     score.h \
-    tuile.h
+    tuile.h \
+    plateau.h

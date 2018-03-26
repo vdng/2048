@@ -5,7 +5,7 @@ Tuile::Tuile(QObject *parent) : QObject(parent)
 {
     srand(time(NULL));
     int rando = rand() % 100;
-    if rando>70{
+    if (rando>70) {
         valeur=4;
     }
     else{
@@ -24,8 +24,35 @@ void Tuile::get_val(){
     return valeur;
 }
 
-void Tuile::deplacer_gauche(){
+void Tuile::deplacer_gauche(vector<Tuile> L_tuile){
+    bool peut_bouger = true;
+    while (peut_bouger) {
+        if (y==0){
+            peut_bouger=false;
+        }
+        else{
+            bool vide_gauche = true;
+            int i=0;
+            while (vide_gauche && i<L_tuile.size()){
+                Tuile2=L_tuile[i];
+                vide_gauche = (x==Tuile2.get_x() && y-1=Tuile2.get_y());
+                i++;
+            }
+            if (vide_gauche){
+                y=y-1;
+            }
+            else{
+                if (valeur = Tuile2.get_val()){
+                    fusion(Tuile2);
+                    y=y-1;
+                }
+                else{
+                    peut_bouger=false;
+                }
+            }
+        }
 
+    }
 }
 
 void Tuile::deplacer_droite(){
