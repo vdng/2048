@@ -13,7 +13,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp \
-    score.cpp \
     tuile.cpp \
     plateau.cpp
 
@@ -32,5 +31,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     score.h \
-    tuile.h \
     plateau.h
