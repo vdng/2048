@@ -26,6 +26,9 @@ private :
     int score_;
     int tuile_max_; //Valeur la plus haute des tuiles
 
+    int new_val() const; // Génère une nouvelle valeur de tuile (1/10 de 4 et 9/10 de 2)
+    void new_tuile(); // Créé une nouvelle tuile
+
     void debut_jeu(); // Permet d'initier le jeu
     void init_rand(); // Nécessaire pour utiliser l'aléatoir
 };
