@@ -1,14 +1,14 @@
 #ifndef GRILLE_H
 #define GRILLE_H
 
-#include <QTime>
-#include <QTimer>
-
 #include <QObject>
+#include <QStringList>
 
-class Grille : public QObject
-{
+
+class Grille : public QObject {
     Q_OBJECT
+    Q_PROPERTY(int get_score READ get_score NOTIFY chgt_score)
+
 public:
     explicit Grille(QObject *parent = 0);
 
@@ -26,24 +26,23 @@ public:
     bool moveLeft(); // Mouvement vers la gauche
 
 signals:
-
     void mouvement_fait(); //Dès qu'un mouvement est fait
     void chgt_score(); // A chaque changement de score
     void fin_ou_gagne(); // Dès que ça change d'état : le jeu est fini (gagné ou pas)
 
-
 public slots:
 
-private :
+private:
     int grille_[4][4]; // Valeurs des tuiles
     int score_;
     int tuile_max_; //Valeur la plus haute des tuiles
 
-    int new_val() const; // Génère une nouvelle valeur de tuile (1/10 de 4 et 9/10 de 2)
-    void new_tuile(); // Créé une nouvelle tuile
 
     void debut_jeu(); // Permet d'initier le jeu
-    void init_rand(); // Nécessaire pour utiliser l'aléatoire
+    void init_rand(); // Nécessaire pour utiliser l'aléatoir
+
+    int new_val() const; // Génère une nouvelle valeur de tuile (1/10 de 4 et 9/10 de 2)
+    void new_tuile(); // Créé une nouvelle tuile
 
     bool move(int direction); // Effectue un mouvement (0 pour haut, 1 pour gauche, 2 pour bas, 3 pour droite
     void rot_droite(); //Fait faire une rotation vers la droite (expliqué dans le cpp)

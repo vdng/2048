@@ -13,10 +13,10 @@ Window {
         focus: true
 
         Keys.onPressed: {
-            if (event.key==Qt.Key_Up) {grille.moveUp()}
-            if (event.key==Qt.Key_Right) {grille.moveRight()}
-            if (event.key==Qt.Key_Left) {grille.moveLeft()}
-            if (event.key==Qt.Key_Down) {grille.moveDown()}
+            if (event.key==Qt.Key_Up) {grille_transition.moveUp()}
+            if (event.key==Qt.Key_Right) {grille_transition.moveRight()}
+            if (event.key==Qt.Key_Left) {grille_transition.moveLeft()}
+            if (event.key==Qt.Key_Down) {grille_transition.moveDown()}
         }
 
         ColumnLayout {
@@ -24,9 +24,9 @@ Window {
             RowLayout {
                 Text {
                     text: {
-                        if (grille.a_gagne) {
+                        if (grille_transition.a_gagne) {
                             return "Gagné !"
-                        } else if (grille.finJeu) {
+                        } else if (grille_transition.finJeu) {
                             return "GAME OVER";
                         } else {
                             return "";
@@ -39,7 +39,7 @@ Window {
                     Layout.fillWidth: true
                 }
                 Text {
-                    text: grille.get_score
+                    text: grille_transition.get_score
                     color: "#f3eaea"
                     opacity: 0.3
                     font.pointSize: 30
@@ -54,7 +54,7 @@ Window {
                 spacing: 10
 
                 Repeater {
-                    model: grille
+                    model: grille_transition
                     delegate: Tile {
                         value: display
                         state : display
