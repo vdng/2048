@@ -10,7 +10,7 @@ class Grille : public QObject
 {
     Q_OBJECT
 public:
-    explicit Grille(QObject *parent = nullptr);
+    explicit Grille(QObject *parent = 0);
 
     void afficher() const; // Fonction d'affichage pour les tests
 
